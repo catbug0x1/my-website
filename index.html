@@ -1,0 +1,157 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Toji0day
+    </title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+        <nav>
+            <ul>
+                <li><a href="#home">Home</a></li>
+                <li><a href="#roadmap">Roadmap</a></li>
+                <li><a href="#resources">Resources</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+        <section id="home">
+            <h1>Toji0day's Ethical Hacking
+            </h1>
+            <pre id="ascii-art">
+
+⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⢿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿
+⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⠋⣠⡙⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿
+⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⡿⢃⣼⣿⣷⡌⠻⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿
+⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⡟⢡⣾⣿⣿⣿⣿⡂⡘⢿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿
+⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⠟⣰⣿⣿⣿⣿⣿⣿⣧⠘⣤⠙⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿
+⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⠋⣴⣿⢿⡿⣿⢿⡿⢿⣿⠇⠛⠓⢈⠻⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿
+⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⡿⢁⣼⡿⢯⣟⣿⣻⢿⣻⣿⣻⣷⡀⢋⡗⣢⠙⢿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿
+⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⠟⢠⣾⣟⡿⣿⣮⣷⣽⣯⣷⢯⡷⣿⣧⠀⢚⡥⢳⠄⠹⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿
+⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⠟⣠⣾⢿⣽⣳⢿⡿⣿⢿⣿⢿⣾⣳⢯⣿⣦⠈⡓⠎⠶⢠⠙⢿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿
+⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⠟⠻⣿⣿⣿⣿⣿⣿⣿⣿⠏⣰⡿⣯⢿⡶⣯⢿⡽⣯⢿⣞⡿⢾⡽⣯⢷⡿⣆⠐⣶⣶⡇⢲⡈⠻⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿
+⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⡿⢋⣴⣷⡌⢻⣿⣿⣿⣿⡿⢁⣼⣿⣿⣷⣿⡿⣽⢯⣿⣹⣟⡾⣽⢯⡿⣝⣯⢿⣻⡆⠀⠠⠔⠣⠝⠀⠈⢿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿
+⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⠟⣠⣾⣿⣿⣿⣶⡈⠿⣿⡟⢠⣿⡿⣽⣽⣯⣿⣽⢯⣟⡶⣿⢞⣽⣫⡟⣽⣻⢾⣯⢿⣽⡄⠹⠿⠳⠿⠻⠧⣀⠹⣿⣿⣿⣿⣿⣿⣿⣿⣿
+⣿⣿⣿⣿⣿⣿⣿⣿⣿⡿⢃⣴⣿⡿⣿⣯⢿⣥⡄⢡⠉⠰⣿⡷⣿⣹⢷⣛⣮⢿⡽⣞⣿⣹⣿⣿⣿⣿⣿⣯⢿⣞⣯⢿⣷⡀⠲⣔⢢⢖⡲⣍⢖⡈⠻⣿⣿⣿⣿⣿⣿⣿
+⣿⣿⣿⣿⣿⣿⣿⣿⠏⣠⣿⢯⡿⢿⣟⣿⣻⢯⣷⡀⢈⣄⡈⠻⣿⣽⡾⣿⡽⣯⢿⡽⣞⡿⣶⣻⣞⡷⣽⣞⡿⣾⣹⣟⣾⢷⡀⢎⠳⣎⠵⣊⢮⡱⢆⡘⢿⣿⣿⣿⣿⣿
+⣿⣿⣿⣿⣿⣿⠟⢡⣾⡿⣿⢯⣟⡿⣞⣳⢯⣟⣷⣷⡈⢈⣀⣁⣈⠳⣿⣾⣽⡽⣯⢿⡽⣳⢯⣷⢻⣞⣷⡻⣞⣷⣻⢾⡽⣿⢧⠈⠳⣌⡳⣍⠶⣙⠎⢶⡀⠻⣿⣿⣿⣿
+⣿⣿⣿⣿⣿⠋⣴⣿⢯⡿⣽⣟⣾⡽⣿⢿⣿⢾⡽⣾⣷⡀⠨⢥⡔⢦⡈⠻⢿⡿⣽⢯⣻⣽⣻⣞⠿⣞⣳⡿⣽⢾⣽⣻⡾⣽⡿⣧⠘⡔⡳⡌⢰⣤⣦⣦⣾⡇⠘⠻⣿⣿
+⣿⣿⡿⠙⢡⣾⣟⣷⣿⣾⣷⡽⣞⡿⣽⣻⣞⡿⣽⣳⣿⣻⡄⠣⣚⠥⠓⠒⠈⠛⣿⢯⡷⣯⢷⢯⡿⣽⣳⢿⣧⣿⣶⣯⣽⣷⣻⢿⣆⠈⡵⠳⡤⢠⠄⣄⠤⣙⠆⠀⠈⢿
+⣿⡟⠁⣴⣿⣯⢿⣞⣧⣿⣼⢿⣯⢿⣳⣷⣯⣿⣭⣷⣯⣿⢿⡄⠘⣦⠛⡛⣙⣃⡈⠹⣿⢯⣟⣯⣿⢷⡿⣾⣻⣟⣿⣻⣿⢷⣿⣻⢿⣆⠘⢣⡝⣣⢛⡬⢳⡍⠦⠀⠀⠀
+⢋⣀⡀⢉⣉⣌⣉⣈⣉⣈⣉⣉⣈⣉⣉⣡⣭⣭⣭⣭⣍⣍⣩⣉⣀⣀⣁⣁⣈⣀⣉⣀⣈⣉⣉⣉⣈⣉⣉⣩⣍⣭⣭⣥⣭⣭⣥⣉⣉⣨⣄⣈⣈⣁⣉⣈⣁⣈⣁⣀⠀⡀
+
+            </pre>
+            <p>Welcome to my journey into the world of ethical hacking. This site serves as a comprehensive guide and resource center for aspiring ethical hackers.</p>
+        </section>
+
+        <section id="roadmap">
+            <h2>Ethical Hacking Roadmap</h2>
+            <ol>
+                <li>
+                    <h3>Fundamentals</h3>
+                    <ul>
+                        <li>Learn networking basics (TCP/IP, OSI model)</li>
+                        <li>Master Linux command line</li>
+                        <li>Understand basic programming (Python, Bash scripting)</li>
+                    </ul>
+                </li>
+                <li>
+                    <h3>Security Concepts</h3>
+                    <ul>
+                        <li>Study cryptography fundamentals</li>
+                        <li>Learn about common vulnerabilities (OWASP Top 10)</li>
+                        <li>Understand security protocols and best practices</li>
+                    </ul>
+                </li>
+                <li>
+                    <h3>Tools and Techniques</h3>
+                    <ul>
+                        <li>Master Kali Linux and its tools</li>
+                        <li>Learn network scanning and enumeration</li>
+                        <li>Practice web application testing</li>
+                    </ul>
+                </li>
+                <li>
+                    <h3>Advanced Topics</h3>
+                    <ul>
+                        <li>Explore wireless network security</li>
+                        <li>Study malware analysis and reverse engineering</li>
+                        <li>Learn about social engineering techniques</li>
+                    </ul>
+                </li>
+                <li>
+                    <h3>Legal and Ethical Considerations</h3>
+                    <ul>
+                        <li>Understand cybersecurity laws and regulations</li>
+                        <li>Study ethical hacking methodologies</li>
+                        <li>Learn about responsible disclosure</li>
+                    </ul>
+                </li>
+                <li>
+                    <h3>Certifications and Continuous Learning</h3>
+                    <ul>
+                        <li>Prepare for and obtain relevant certifications (e.g., CEH, OSCP)</li>
+                        <li>Stay updated with the latest security trends and vulnerabilities</li>
+                        <li>Participate in CTF competitions and bug bounty programs</li>
+                    </ul>
+                </li>
+            </ol>
+        </section>
+
+        <section id="resources">
+            <h2>Resources</h2>
+            <div class="resource-grid">
+                <div>
+                    <h3>Books</h3>
+                    <ul>
+                        <li>"The Web Application Hacker's Handbook" by Dafydd Stuttard and Marcus Pinto</li>
+                        <li>"Penetration Testing: A Hands-On Introduction to Hacking" by Georgia Weidman</li>
+                        <li>"The Hacker Playbook 3: Practical Guide To Penetration Testing" by Peter Kim</li>
+                        <li>"Metasploit: The Penetration Tester's Guide" by David Kennedy et al.</li>
+                    </ul>
+                </div>
+                <div>
+                    <h3>Online Courses</h3>
+                    <ul>
+                        <li>Offensive Security's "Penetration Testing with Kali Linux"</li>
+                        <li>SANS Institute's "SEC560: Network Penetration Testing and Ethical Hacking"</li>
+                        <li>Udemy's "The Complete Ethical Hacking Course" by Ermin Kreponic</li>
+                        <li>Coursera's "Introduction to Cyber Security Specialization" by NYU</li>
+                    </ul>
+                </div>
+            </div>
+            <div>
+                <h3>Websites and Platforms</h3>
+                <ul>
+                    <li>HackTheBox - <a href="https://www.hackthebox.eu" target="_blank" rel="noopener noreferrer">https://www.hackthebox.eu</a></li>
+                    <li>TryHackMe - <a href="https://tryhackme.com" target="_blank" rel="noopener noreferrer">https://tryhackme.com</a></li>
+                    <li>OWASP - <a href="https://owasp.org" target="_blank" rel="noopener noreferrer">https://owasp.org</a></li>
+                    <li>Exploit Database - <a href="https://www.exploit-db.com" target="_blank" rel="noopener noreferrer">https://www.exploit-db.com</a></li>
+                    <li>Cybrary - <a href="https://www.cybrary.it" target="_blank" rel="noopener noreferrer">https://www.cybrary.it</a></li>
+                </ul>
+            </div>
+        </section>
+
+        <section id="contact">
+            <h2>Contact</h2>
+            <p>For more information or to discuss ethical hacking, reach out:</p>
+            <ul>
+                <li>Email: Toji0day@gmail.com</li>
+                <li>Twitter: <a href="https://x.com/toji0day" target="_blank" rel="noopener noreferrer">@toji0day</a></li>
+                <li>LinkedIn: <a href="https://www.linkedin.com/in/Toji0day" target="_blank" rel="noopener noreferrer">linkedin.com/in/Toji0day</a></li>
+            </ul>
+        </section>
+    </main>
+
+    <footer>
+        <p>&copy; 2024 Toji0day's Ethical Hacking. All rights reserved.</p>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
